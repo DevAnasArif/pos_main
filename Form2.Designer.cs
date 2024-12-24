@@ -1,6 +1,6 @@
 ﻿namespace pos_main
 {
-    partial class Product
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -93,9 +93,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.detailbtn = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
             this.DGV = new System.Windows.Forms.DataGridView();
-            this.paybtn = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
@@ -765,7 +765,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.flowLayoutPanel1);
-            this.panel2.Controls.Add(this.detailbtn);
+            this.panel2.Controls.Add(this.button21);
             this.panel2.Controls.Add(this.DGV);
             this.panel2.Location = new System.Drawing.Point(736, 59);
             this.panel2.Name = "panel2";
@@ -792,17 +792,17 @@
             this.label1.Text = "              List of items";
             this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // detailbtn
+            // button21
             // 
-            this.detailbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(169)))), ((int)(((byte)(212)))));
-            this.detailbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.detailbtn.Location = new System.Drawing.Point(135, 806);
-            this.detailbtn.Name = "detailbtn";
-            this.detailbtn.Size = new System.Drawing.Size(114, 37);
-            this.detailbtn.TabIndex = 11;
-            this.detailbtn.Text = "Details";
-            this.detailbtn.UseVisualStyleBackColor = false;
-            this.detailbtn.Click += new System.EventHandler(this.detailbtn_Click);
+            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(169)))), ((int)(((byte)(212)))));
+            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.Location = new System.Drawing.Point(135, 806);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(114, 37);
+            this.button21.TabIndex = 11;
+            this.button21.Text = "Details";
+            this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // DGV
             // 
@@ -812,17 +812,17 @@
             this.DGV.Size = new System.Drawing.Size(348, 812);
             this.DGV.TabIndex = 2;
             // 
-            // paybtn
+            // button22
             // 
-            this.paybtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(201)))), ((int)(((byte)(43)))));
-            this.paybtn.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.paybtn.Location = new System.Drawing.Point(815, 929);
-            this.paybtn.Name = "paybtn";
-            this.paybtn.Size = new System.Drawing.Size(219, 42);
-            this.paybtn.TabIndex = 3;
-            this.paybtn.Text = "Pay";
-            this.paybtn.UseVisualStyleBackColor = false;
-            this.paybtn.Click += new System.EventHandler(this.paybtn_Click);
+            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(201)))), ((int)(((byte)(43)))));
+            this.button22.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button22.Location = new System.Drawing.Point(815, 929);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(219, 42);
+            this.button22.TabIndex = 3;
+            this.button22.Text = "Pay";
+            this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // pictureBox5
             // 
@@ -1024,12 +1024,12 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
-            // Product
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1122, 1025);
-            this.Controls.Add(this.paybtn);
+            this.ClientSize = new System.Drawing.Size(1106, 1025);
+            this.Controls.Add(this.button22);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox12);
@@ -1113,8 +1113,8 @@
             this.Controls.Add(this.slanty1);
             this.Controls.Add(this.panel1);
             this.MinimumSize = new System.Drawing.Size(1122, 669);
-            this.Name = "Product";
-            this.Text = "Product";
+            this.Name = "Form2";
+            this.Text = "Form2";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -1233,7 +1233,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView DGV;
-        private System.Windows.Forms.Button detailbtn;
-        private System.Windows.Forms.Button paybtn;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
     }
 }

@@ -38,12 +38,12 @@ namespace pos_main
             {
                 UserBAL userBAL = new UserBAL();
 
-                string Tablename = userBAL.UserDetail(email, pass);
                 string status = userBAL.UserLogin(email, pass);
                 try
                 {
                     if (status != null)
                     {
+                        string Tablename = userBAL.UserDetail(email, pass);
                         if (status == "UnVerified")
                         {
                             MessageBox.Show($"User exists with status: UnVerified");

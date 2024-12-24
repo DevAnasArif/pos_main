@@ -40,7 +40,7 @@ namespace pos_main
                 {
                     UserBAL userBAL = new UserBAL();
                     int ordernumber=userBAL.Ordercheck();
-                    int newordernumber = ordernumber+1;
+                    int newordernumber = ordernumber + 1;
                     string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
                     string tableName = Convert.ToString("order-" + currentDate +"-"+ newordernumber);
                     bool userT = userBAL.SignUp(username, email, password,tableName,newordernumber);
